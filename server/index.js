@@ -124,7 +124,7 @@ router.route('/providers')
 		res.send(resData)
 	}
 })
-//Use our router configuration when we call /api
+
 app.use('/', router);
 //starts the server and listens for requests
 app.get('*', function(request, response) {
