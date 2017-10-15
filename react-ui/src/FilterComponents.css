@@ -1,0 +1,37 @@
+#minus-sign{
+  vertical-align: top;
+  line-height: 36px;
+}
+.App-intro {
+  font-size: large;
+}
+#filterbutton{
+  /*text-align: center;*/
+  line-height: 90px;
+}
+#filter_button{
+  width: 45%;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 426px){
+  .filter{
+    /*margin-bottom: 20px;
+    padding: 10px 0px;
+    margin-right: 10px;*/
+    margin: 10px auto;
+  }
+}
+.align{
+  width: 42%;
+  display: inline-block;
+  margin: 1%;
+}
+.filtersection{
+  /*border-right: 1px solid;
+  overflow: auto;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;*/
+}

@@ -1,0 +1,116 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.centre{
+  text-align: center;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.details{
+  /*min-height: 250px;*/
+}
+.contentsection{
+ /* margin-top: 240px;*/
+}
+.ReactTable .rt-thead .rt-resizable-header{
+  white-space: normal;
+    overflow: visible;
+    font-weight: bold;
+}
+.ReactTable .-pagination .-btn{
+  background: #337ab7;
+  color: white;
+}
+
+.ReactTable .-pagination .-btn:hover{
+  background: #23618c !important; 
+  color: white;
+}
+
+.provider-wrapper{
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px auto;
+}
+.provider-wrapper .heading{
+  /*height: 100px;*/
+}
+.filtersection {
+    background: #666666;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    position: fixed;
+    z-index: 2;
+}
+.toggleFilter{
+  display: none;
+}
+.filter{ 
+  margin: 10px auto;
+}
+.filtersectiondesktop{
+  display: block;
+  background: #666666;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+   /* position: fixed;*/
+    z-index: 4;
+}
+@media screen and (max-width: 425px){
+  .filtersection{
+    position: static;
+    display: block;
+    margin-top: 60px;
+  }
+  .filtersectiondesktop{
+    display: none;
+  }
+  .toggleFilter{
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    width: 100%;
+    display: block;
+    background: #f6f6f6;
+  }
+  .closebtn{
+    float: right;
+  }
+  .contentsection{
+    margin-top: 60px;
+  }
+  .filterbtn{
+    margin: 10px;
+    width: 100px;
+  }
+} 
+.provider-wrapper .name{
+  font-weight: bold;
+  text-align: center;
+}
+.provider-wrapper .address{
+    /*border-bottom: 1px solid;
+    padding-bottom: 6px;*/
+    color: #666666;
+    text-align: center;
+    margin-bottom: 10px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
