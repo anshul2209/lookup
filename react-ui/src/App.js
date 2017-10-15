@@ -87,6 +87,9 @@ class App extends Component {
     return (
       <Grid fluid className="App">
         <Row id="wrapper">
+          <Col xs={12} className="header">
+            <h3>Payment Systems Providers</h3>
+          </Col>
           <Col xs={12} className="toggleFilter">
             <div className="buttonWrapper">
               <button type="button" className="filterbtn btn btn-success" onClick={this.handleToggle.bind(this)}>Filter</button>

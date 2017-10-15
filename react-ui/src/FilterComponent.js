@@ -12,7 +12,7 @@ export default class Filter extends Component {
       max_average_covered_charges: '',
       min_average_medicare_payments: '',
       max_average_medicare_payments: '',
-      state: '',
+      state: 'ID',
       selectedvalue: []
     };
   }
@@ -98,7 +98,7 @@ export default class Filter extends Component {
       <Row>
         <Col md={4} xs={12}>
           <div id="state" className="filter">
-            <label>Select State</label>
+            <label>Select Provider State</label>
             <Select
               value={this.state.state}
               options={stateoptions}

@@ -48,6 +48,14 @@
 .provider-wrapper .heading{
   /*height: 100px;*/
 }
+.header{
+      text-align: center;
+    font-weight: 700;
+    background: #666;
+    color: white;
+    line-height: 60px;
+    height: 60px;
+}
 .filtersection {
     background: #666666;
     color: white;
@@ -82,7 +90,7 @@
   }
   .toggleFilter{
     position: fixed;
-    top: 0px;
+    top: 60px;
     z-index: 3;
     width: 100%;
     display: block;
