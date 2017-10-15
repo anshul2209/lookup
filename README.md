@@ -4,10 +4,10 @@ Implementing an API that allows for various methods of querying the provider dat
 
 ##Architecture
 
--The application use  Node Express API server in the backend. The frontend has been made using ReactJs.
--The build folder with static assets is the output produced by Create React App in react-ui.
--The requests to /provider are routed to the api call which calls the mongo database and executes the query and returns the result.
--In production, we create the build and serve the ui as the static resource. We run the api in express to serve the queries.
+-The application use  Node Express API server in the backend. The frontend has been made using ReactJs.  
+-The build folder with static assets is the output produced by Create React App in react-ui.  
+-The requests to /provider are routed to the api call which calls the mongo database and executes the query and returns the result.   
+-In production, we create the build and serve the ui as the static resource. We run the api in express to serve the queries.  
 
 ## Installing
 
