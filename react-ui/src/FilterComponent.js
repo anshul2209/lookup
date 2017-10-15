@@ -24,7 +24,10 @@ export default class Filter extends Component {
   }
   handleChange(e){
     e.preventDefault();
-    this.setState({[e.target.name]: e.target.value});
+    const re = /^[0-9\b]+$/;
+    if (e.target.value == '' || re.test(e.target.value)) {
+      this.setState({[e.target.name]: e.target.value});
+    }
   }
   handlefilter(event){
     event.preventDefault();
